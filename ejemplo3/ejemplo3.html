@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const Dolares = 3929.30;
+        const Euros = 4190.51;
+        const Yenes = 26.62;
+
+        let pesos, dolares, euros, yenes; 
+
+        pesos = parseFloat(prompt("ingrese el valor en pesos colombiaos")); 
+        dolares = pesos / Dolares
+        euros = pesos / Euros
+        yenes = pesos / Yenes
+
+        document.write("<p> los pesos colombianos convertidos a Dolares: " + dolares+"</p>");
+        document.write("<p> los pesos colombianos convertidos a Euros: " + euros+"</p>");
+        document.write("<p> los pesos colombianos convertidos a Yenes: " + yenes+"</p>");
+
+
+
+    </script>    
+
+</body>
+</html>
